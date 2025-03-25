@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0F2C42;
+    color: #ddd;
+    line-height: 1.6;
+    
+}
+header{
+    
+    text-align: right;
+    word-spacing: 15px;
+
+    }
+.hh{
+    color: #ddd;
+    text-decoration: none;
+    
+    
+}   
+#Home {
+   
+    color: #ddd;
+    padding: 4rem;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.h4{
+    color: #00AEEF;
+    text-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3);
+
+}
+
+    
+.h2{
+    color:#00AEEF;
+}
+#about{
+    text-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3);
+    
+    background-color:#0F2C42;
+    color:white;
+    
+}
+
+#skills {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+        padding: 2em;
+        text-shadow: 1px 1px 1px rgba(14, 14, 14, 0.3);
+        background-color: #0F2C42;
+        color: #ddd;
+
+    }
+    
+    .skill {
+        margin: 1em auto;
+        width: 80%;
+        text-align: left;
+    }
+    
+    .skill p {
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .skill-bar {
+        background: #ddd;
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    
+    .skill-fill {
+        height: 100%;
+        text-align: right;
+        padding-right: 10px;
+        line-height: 25px;
+        background: #00AEEF;
+        color: rgb(57, 52, 52);
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+#contact {
+    background: #0F2C42;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 48%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #0f607b;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background: #0e475c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #008CBA;
+}
